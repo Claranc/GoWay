@@ -1,0 +1,97 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoAddressOperators" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoAnonymousFieldDefinitionType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoAssignmentNilWithoutExplicitType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoAssignmentToConstant" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoAssignmentToReceiver" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoBinaryAndUnaryExpressionTypesCompatibility" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoBoolExpressions" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoBuildTag" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoCgoInTest" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoCommentLeadingSpace" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoDeferGo" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoDeferInLoop" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoDeprecation" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoDirectAssignToStructFieldInMap" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoDivisionByZero" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoDuplicate" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoDuplicateCase" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoEmbeddedInterfacePointer" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoEmptyDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoErrorStringFormat" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoExplicitDereferenceRequired" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoExportedFuncWithUnexportedType" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoExportedOwnDeclaration" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoExtendedMethodExprSyntax" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoFunctionCall" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoFunctionVariadicParameter" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoImportUsedAsName" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoImpossibleTypeAssertion" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInfiniteFor" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidCompositeLiteral" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidConstInitialization" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidConstType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidExpressionConversion" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidIndexOrSliceExpression" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidPackageImport" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidReceiverType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidStringOrChar" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidTilde" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoInvalidVarAssignInVarOrConstSpec" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoJumpOverDeclaration" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoMissingReturn" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoMissingTrailingComma" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoMixedNamedUnnamedParameters" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoMultiplePackages" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoNameStartsWithPackageName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoNilContainerIndexing" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoNoNewVariables" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoNonFunctionCall" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoPreferNilSlice" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoPrintFunctions" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoReceiverNames" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRecursiveType" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantBlankArgInRange" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantImportAlias" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantParens" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantSecondIndexInSlices" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantSemicolon" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoRedundantTypeDeclInCompositeLit" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoReservedWordUsedAsName" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoSelfAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoSelfImport" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoSnakeCaseUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoStringAndByteTypeMismatch" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoStringsReplaceCount" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoStructInitializationWithoutFieldNames" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoStructTag" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoTestSignatures" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoTypesCompatibility" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUnderscoreUsedAsValue" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUnitSpecificDurationSuffix" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnresolvedReference" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUnsortedImport" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedCallResult" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedConst" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedExportedFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedExportedType" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedGlobalVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedImport" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedLabel" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedParameter" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedType" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnusedVariable" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoUsedAsValueInCondition" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoVarAndConstDeclaration" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="GoVarAndConstTypeMayBeOmitted" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoVetAtomic" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
