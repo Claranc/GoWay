@@ -8,10 +8,8 @@ import (
 	"strings"
 )
 
-var SIZE = 5
-
 func main() {
-	a := [5]int{4:0}
+	a := []int{4:0}
 	var tail int = 0
 	var head int = 0
 	fmt.Printf("Please input: \n")
@@ -60,20 +58,20 @@ func main() {
 
 }
 
-func Push(head,tail,val *int, a *[5]int) bool {
-	if(*tail+1)%SIZE == *head {
+func Push(head,tail,val *int, a *[]int) bool {
+	if(*tail+1)%len(*a) == *head {
 		return false
 	}
-	a[*tail] = *val
-	*tail = (*tail+1)%SIZE
+	(*a)[*tail] = *val
+	*tail = (*tail+1)%len(*a)
 	return true
 }
 
-func Pop(head,tail,val *int, a *[5]int) bool {
+func Pop(head,tail,val *int, a *[]int) bool {
 	if *head == *tail {
 		return false
 	}
-	*val = a[*head]
-	*head = (*head+1)%SIZE
+	*val = (*a)[*head]
+	*head = (*head+1)%len(*a)
 	return true
 }
