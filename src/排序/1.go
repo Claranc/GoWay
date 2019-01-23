@@ -7,7 +7,7 @@ import (
 
 func main() {
 	a := []int{5,8,9,3,2,15,78,0,63,1}
-	b := QuickSort(a)
+	b := Charu(a)
 	fmt.Println(b)
 }
 
@@ -16,7 +16,7 @@ func Maopao(a []int) []int {
 	for j := 0; j < len(a); j++ {
 		flag := false
 		for i := 0; i < len(a)-1-j; i++ {
-			if a[i] < a[i+1] {
+			if a[i] > a[i+1] {
 				flag = true
 				a[i], a[i+1] = a[i+1], a[i]
 			}
